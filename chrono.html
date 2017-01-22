@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="semantic.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="semantic.min.css">
+   <link rel="stylesheet" type="text/css" href="chrono.css">
+    <meta charset="UTF-8">
+    <title>Chrono</title>
+</head>
+<body>
+
+<h1><strong>CHRONOMETRE</strong></h1>
+
+<div id = "panneau">
+<span id = "h">00</span>:<span id = "m">00</span>:<span id = "s">00</span>
+    </div>
+
+<div class="button">
+
+<button class="ui button" class="play icon" onclick="chrono.start()">Start</button>
+<button class="ui labeled icon button" class="pause icon" onclick="chrono.pause()">Pause</button>
+<button  class="ui button"  class="stop icon" onclick="chrono.raz()"> R.A.Z</button>
+
+</div>
+    <script type="text/javascript" src = "Js/chrono.js"></script>
+</body>
+</html>
